@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>فوج دوحة المبرات</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Tahoma", sans-serif;
+      background-color: #fff;
+      color: #333;
+      direction: rtl;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      overflow: hidden;
+    }
+
+    /* Background blur */
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url(pic5.jpg.jpeg) no-repeat center center/cover;
+      filter: blur(6px) brightness(70%);
+      z-index: -1;
+    }
+
+    /* Logo + Title */
+    .logo-box {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo-box img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 3px solid #d4af37; /* gold border */
+      margin-bottom: 10px;
+      background: white;
+      padding: 5px;
+    }
+
+    .logo-box h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #d4af37; /* gold */
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+
+    .hero p {
+      font-size: 18px;
+      background: rgba(0, 100, 0, 0.7); /* olive overlay */
+      padding: 15px 25px;
+      border-radius: 15px;
+      max-width: 700px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      font-size: 16px;
+      color: white;
+      background: #556b2f; /* olive green */
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #d4af37; /* gold */
+      color: #000;
+    }
+
+    /* Gallery */
+    .gallery {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-size: 26px;
+      color: #556b2f;
+      margin-bottom: 30px;
+    }
+
+    .gallery img {
+      width: 220px;
+      margin: 10px;
+      border: 6px solid #d4af37; /* gold frame */
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      background: #556b2f;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="logo-box">
+      <img src="LOGO,jpg.png" alt="شعار الكشافة">
+      <h3>جمعية كشافة المبرات – مفوضية بيروت وجبل لبنان</h3>
+    </div>
+
+    <h1>مرحبا بكم في فوج دوحة المبرات (ثانوية الأبرار)</h1>
+    <p>
+      انتظرونا كل يوم جمعة من الساعة ٢:٣٠ حتى الساعة ٤:٠٠  
+      بمعدل ثلاث أنشطة داخلية ونشاط خارجي في نهاية الشهر 
+    </p>
+    <div>
+      <a class="btn" href="gallery.html">📸 اضغط هنا للتعرف على مقتطفات من أنشطتنا</a>
+      <a class="btn" href="https://forms.gle/uBsTKtz8VMax68Nd6" target="_blank">📝 للتسجيل في الكشاف اضغط هنا</a>
+    </div>
+  </section>
+
+  
+  <!-- Footer -->
+  <footer>
+    للاستفسار والتّواصل: 78863532
+  </footer>
+
+</body>
+</html>
